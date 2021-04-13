@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+.header{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.categoryTable{
+  flex: auto;
+  background-color: antiquewhite;
+  align-content: center;
+  align-self: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+select {
+  width: 150px;
+}
+select:focus {
+  min-width: 150px;
+  width: auto;
+}
+div{
+  margin: 5px;
+  padding: auto;
+  margin: auto;
+}
+button{
+  padding: auto;
+  margin: auto;
+}
+.message{
+  min-width: 300px;
+  width: auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  max-height: 200vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+html, body, table {margin: 0; padding: 0; background-color: #0000ff; color: #ffffff;}
+		td, th {text-align: center; vertical-align: middle; border: 1px #ccccff solid;}
+		table {width: 100vw; height: 100vh; border-spacing: 0; border-collapse: collapse;}
+
+		.game td {width: 20vw; height: 16.66vh; font-size: 10vh;}
+		.game th {width: 20vw; height: 16.66vh; font-size: 6vh;}
+		.game td.tile {cursor: pointer;}
+		.game td.tile:hover {background-color: #1144ff;}
+
+		.scores th {width: 33.33vw; height: 30vh; font-size: 10vh;}
+		.scores td {width: 33.33vw; height: 20vh; font-size: 10vh;}
+
+		.question {display: none; position: absolute; top: 0; left: 0; z-index: 1;}
+		.question .text {width: 100vw; height: 85vh; font-size: 5vw; cursor: help; border: 0; padding-left: 5vw; padding-right: 5vw;}
+		.question .award {width: 15vw; height: 15vh; font-size: 5vh; background-color: #006600; cursor: pointer; -webkit-user-select: none;}
+		.question .award:hover {background-color: #008800;}
+		.question .award.wrong {background-color: #660000;}
+		.question .award.wrong:hover {background-color: #880000;}
+		.question .show-answer {width: 10vw; height: 15vh; font-size: 8vh; background-color: #888800; cursor: pointer; color: black; text-shadow: #ff0 1px 1px;}
+		.question .show-answer:hover {background-color: #999933;}
+
+		.daily-double {display: none; position: absolute; top: 0; left: 0; z-index: 2;}
+		.daily-double td {border: 0;}
+		.daily-double .title {width: 100vw; height: 50vh; font-size: 15vw;}
+		.daily-double .wager {width: 100vw; height: 50vh; font-size: 20vh;}
+		.daily-double .wager-confirm {cursor: pointer; color: white;}
+
+		.content-money {color: #ffff33; text-shadow: black 5px 5px; font-family: "Impact";}
+		.content-name {color: #ffffee; text-shadow: black 3px 3px; font-family: "HelveticaNeue-CondensedBold";}
+		.content-text {color: #ffffee; text-shadow: black 5px 5px; font-weight: bold; font-family: "Korinna";}
+		.content-title {color: #ffffee; text-shadow: black 5px 5px; letter-spacing: 3pt; font-family: "Gyparody";}
