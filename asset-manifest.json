@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/JeopardyGame/static/css/main.079e19b0.chunk.css",
-    "main.js": "/JeopardyGame/static/js/main.62651cbb.chunk.js",
-    "main.js.map": "/JeopardyGame/static/js/main.62651cbb.chunk.js.map",
+    "main.css": "/JeopardyGame/static/css/main.7e6533a0.chunk.css",
+    "main.js": "/JeopardyGame/static/js/main.1fa0becb.chunk.js",
+    "main.js.map": "/JeopardyGame/static/js/main.1fa0becb.chunk.js.map",
     "runtime-main.js": "/JeopardyGame/static/js/runtime-main.f8102ed3.js",
     "runtime-main.js.map": "/JeopardyGame/static/js/runtime-main.f8102ed3.js.map",
-    "static/js/2.8dc6ecad.chunk.js": "/JeopardyGame/static/js/2.8dc6ecad.chunk.js",
-    "static/js/2.8dc6ecad.chunk.js.map": "/JeopardyGame/static/js/2.8dc6ecad.chunk.js.map",
+    "static/js/2.4102fc2c.chunk.js": "/JeopardyGame/static/js/2.4102fc2c.chunk.js",
+    "static/js/2.4102fc2c.chunk.js.map": "/JeopardyGame/static/js/2.4102fc2c.chunk.js.map",
     "index.html": "/JeopardyGame/index.html",
-    "static/css/main.079e19b0.chunk.css.map": "/JeopardyGame/static/css/main.079e19b0.chunk.css.map",
-    "static/js/2.8dc6ecad.chunk.js.LICENSE.txt": "/JeopardyGame/static/js/2.8dc6ecad.chunk.js.LICENSE.txt"
+    "static/css/main.7e6533a0.chunk.css.map": "/JeopardyGame/static/css/main.7e6533a0.chunk.css.map",
+    "static/js/2.4102fc2c.chunk.js.LICENSE.txt": "/JeopardyGame/static/js/2.4102fc2c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f8102ed3.js",
-    "static/js/2.8dc6ecad.chunk.js",
-    "static/css/main.079e19b0.chunk.css",
-    "static/js/main.62651cbb.chunk.js"
+    "static/js/2.4102fc2c.chunk.js",
+    "static/css/main.7e6533a0.chunk.css",
+    "static/js/main.1fa0becb.chunk.js"
   ]
 }
