@@ -19,7 +19,7 @@ const UsersScreen = (props) => {
 
             {props.currentPlayer ?
                 <h5>Turn:{props.currentPlayer.playerName}</h5>
-                : <h5></h5>}
+                : <></>}
         </div>
     )
 

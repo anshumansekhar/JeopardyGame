@@ -1,6 +1,6 @@
 {
-  "homepage": "http://anshumansekhar.github.io/JeopardyGame",
-  "name": "jeopardy",
+  "homepage": "https://anshumansekhar.github.io/JeopardyGame",
+  "name": "Jeopardy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -14,7 +14,7 @@ const QuestionScreen = (props) => {
                 </tr>
                 <tr >
                     <td colSpan="7">Answer&nbsp;
-        <input type="text" onInput={(e) =>props. handleAnswerInput(e)} value={props.answer}></input>
+        <input type="text" onInput={(e) =>props.handleAnswerInput(e)} value={props.answer}></input>
                     </td>
                 </tr>
                 <tr>
